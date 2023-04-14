@@ -9,7 +9,7 @@
 			"ServerDetails": "1.1.4",
 			"ShowBadgesInChat": "1.9.6",
 			"SplitLargeMessages": "1.8.0",
-			"SpotifyControls": "1.3.2",
+			"SpotifyControls": "1.3.3",
 			"Translator": "2.5.4"
 		},
 		"choices": {
@@ -22,7 +22,7 @@
 			"useChromium": false
 		},
 		"hashes": {
-			"0BDFDB.data.json": "c9c5baf3f19a92cc2879e810cb1ce3c9e34158b3",
+			"0BDFDB.data.json": "17b54fefb7a15d19b45326029fe77af5994f6b02",
 			"0BDFDB.raw.css": "669b57713c736057d0465f4f6258d01a964161e8"
 		}
 	}
