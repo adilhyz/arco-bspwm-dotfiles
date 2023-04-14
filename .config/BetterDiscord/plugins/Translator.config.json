@@ -1,0 +1,41 @@
+{
+	"all": {
+		"choices": {
+			"received": {
+				"input": "auto",
+				"output": "id"
+			},
+			"sent": {
+				"input": "auto",
+				"output": "id"
+			}
+		},
+		"engines": {
+			"translator": "googleapi",
+			"backup": "----"
+		},
+		"exceptions": {
+			"wordStart": [
+				"!"
+			]
+		},
+		"general": {
+			"addTranslateButton": true,
+			"usePerChatTranslation": true,
+			"sendOriginalMessage": false,
+			"showOriginalMessage": false
+		},
+		"guildLanguages": {
+			"@me": {
+				"received": {
+					"input": "auto",
+					"output": "id"
+				},
+				"sent": {
+					"input": "auto",
+					"output": "id"
+				}
+			}
+		}
+	}
+}

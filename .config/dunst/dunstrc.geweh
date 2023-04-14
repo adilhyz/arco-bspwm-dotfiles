@@ -1,0 +1,72 @@
+[global]
+follow = mouse
+width = (111, 444)
+height = 222
+origin = top-left
+offset = 7x42
+
+progress_bar_height = 0
+progress_bar_min_width = 0
+progress_bar_max_width = 444
+progress_bar_frame_width = 0
+
+transparency = 20
+#padding = 0
+horizontal_padding = 9
+
+frame_width = 3
+frame_color = "#7e52c6"
+gap_size = 7
+#separator_height = 2
+separator_color = "#f5f5f5"
+#sort = yes
+idle_threshold = 120
+
+font = "CaskaydiaCove Nerd Font 9"
+
+format = "<span size='large' font_desc='Cantarell,CaskaydiaCove Nerd Font 10' weight='bold' foreground='#63c5ea'>%s</span>\n%b"
+
+show_age_threshold = 60
+icon_position = left
+min_icon_size = 48
+max_icon_size = 64
+
+#icon_path = "/usr/share/icons/Papirus-Custom/48x48/actions/:/usr/share/icons/Papirus-Custom/48x48/apps/:/usr/share/icons/Papirus-Custom/48x48/devices/:/usr/share/icons/Papirus-Custom/48x48/emblems/:/usr/share/icons/Papirus-Custom/48x48/emotes/:/usr/share/icons/Papirus-Custom/48x48/mimetypes/:/usr/share/icons/Papirus-Custom/48x48/places/:/usr/share/icons/Papirus-Custom/48x48/status/"
+
+enable_recursive_icon_lookup = true
+icon_theme = "Dracula"
+
+sticky_history = false
+
+dmenu = "rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/bspwm/rofi/config.rasi"
+
+browser = "your_web_browser"
+
+mouse_left_click = do_action, close_current
+mouse_middle_click = context_all
+mouse_right_click = close_all
+
+alignment = center
+markup = full
+always_run_script = true
+
+#8
+corner_radius = 0
+
+[urgency_low]
+timeout = 3
+background = "#1E1F29"
+foreground = "#a8a8a8"
+highlight = "#fa74b2"
+
+[urgency_normal]
+timeout = 6
+background = "#1E1F29"
+foreground = "#a8a8a8"
+highlight = "#fa74b2"
+
+[urgency_critical]
+timeout = 0
+background = "#1E1F29"
+foreground = "#a8a8a8"
+highlight = "#fa74b2"
